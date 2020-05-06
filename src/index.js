@@ -1,6 +1,9 @@
+// Import Stuff from folders here
 import React from 'react'
-import styles from './styles.module.css'
+import styles from './styles.module.scss'
+import Button from './Components/Atoms/Button/Button.js';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+
+// Export Stuff To Example Here
+
+export { Button };
