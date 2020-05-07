@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "blackburn-comp-library": "file:..",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
-    "react-scripts": "file:../node_modules/react-scripts",
-    "blackburn-comp-library": "file:.."
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "file:../node_modules/react-scripts"
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
