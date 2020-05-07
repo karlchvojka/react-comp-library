@@ -3,6 +3,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import './App.scss'
 import Home from './Components/Pages/index.js';
+import CompLayout from './Components/Templates/component_wiki/';
 
 // Component Example Imports
 import { Button } from 'blackburn-comp-library';
@@ -30,7 +31,7 @@ const App = () => {
       </aside>
       <Switch className="mainBody">
         <Route path="/button">
-          <Button text="HI Chat" />
+          <CompLayout />
         </Route>
         <Route path="/">
           <Home />
