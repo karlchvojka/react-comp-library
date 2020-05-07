@@ -1,6 +1,50 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+// Variable Declarations
+$headerFont: 'Roboto Mono', monospace;
+
+// Resets
 body {
   margin: 0px;
 }
+
+// styles
+
+// Font styles
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headerFont;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
 header {
   background-color: #efefef;
   border-bottom:1px solid #000;
@@ -10,7 +54,7 @@ header {
 
 main {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
   height: 100vh;
 
   aside.mainSidebar {
@@ -18,7 +62,7 @@ main {
     border-right:1px solid #000;
     padding:10px;
   }
-  section.mainBody {
+  .mainBody {
     padding:10px;
   }
 }
