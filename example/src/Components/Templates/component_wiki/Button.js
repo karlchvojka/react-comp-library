@@ -1,23 +1,20 @@
-// TEMPLATE FOR COMPONENT VIEW IN EXAMPLE LIBRARY.
-// DUPLICATE THIS FILE DO NOT USE AS IS
-
 import React from 'react';
 import './index.scss';
 
-// Individual Component Imports:
-// import { Button } from 'blackburn-comp-library';
+// Individual Component Imports
+import { Button } from 'blackburn-comp-library';
 
-const CompLayout = (props) => {
+const CompLayoutButton = (props) => {
   return (
     <section className="CompWikiWrap">
       {/* Title will be individual for each component. */}
-      <h1>This page for: A Component</h1>
+      <h1>This page for: A Button</h1>
 
-      <h2>Example</h2>
       {/* Add component here. */}
+      <h2>Example</h2>
+      <Button text= "This is a button" />
 
       <h2>Description</h2>
-      {/* Add Description of the usage of the component and other information here */}
       <p>Its a Button.. Duh..</p>
 
       <h2>Props</h2>
@@ -36,24 +33,24 @@ const CompLayout = (props) => {
 
         {/* Prop Example */}
         <div className="propTitle">
-          {/* TODO: REPLACE WITH NAME OF PROP */}
+          <p>Text</p>
         </div>
 
         <div className="propDescription">
-          {/* TODO: REPLACE WITH DESCRIPTION OF PROP */}
+          <p>This adds Text to the button, viewable by the user.</p>
         </div>
 
         <div className="propsExample">
           <code>
-          {/* TODO: REPLACE WITH EXAMPLE OF THE PROP BEING USED: {'<Button text="This is a button" />'} */}
+            {'<Button text="This is a button" />'}
           </code>
         </div>
       </section>
-
+      
       <h2>Other Examples</h2>
       <p>Showcase of other examples built into the default component.</p>
     </section>
   )
 }
 
-export default CompLayout;
+export default CompLayoutButton;

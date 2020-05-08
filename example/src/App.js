@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import './App.scss'
 import Home from './Components/Pages/index.js';
-import CompLayout from './Components/Templates/component_wiki/';
+import CompLayoutButton from './Components/Templates/component_wiki/Button.js';
 
 // Component Example Imports
 import { Button } from 'blackburn-comp-library';
@@ -31,7 +31,7 @@ const App = () => {
       </aside>
       <Switch className="mainBody">
         <Route path="/button">
-          <CompLayout />
+          <CompLayoutButton />
         </Route>
         <Route path="/">
           <Home />

@@ -1,12 +1,22 @@
-.CompWikiWrap {
-  padding: 10px;
+// Import CSS Variables
+@import '../../../variables.scss';
 
+.CompWikiWrap {
+  padding: 0px 10px;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $headerColor;
+  }
+
+  p {
+    margin-bottom:10px;
+  }
   .propsTable {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 20% 40% 40%;
 
     div{
-      border:1px solid #eeeeee;
+      border:0.5px solid $borderColor;
       padding:5px;
 
       p {
@@ -16,6 +26,7 @@
 
     .colTitle {
       font-weight:700;
+      color: $headerColor;
     }
   }
 }
