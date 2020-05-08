@@ -11,7 +11,7 @@ const CompLayout = (props) => {
       <h1>This page for: A Button</h1>
 
       {/* Add component here. */}
-      <h2>Default Example</h2>
+      <h2>Example</h2>
       <Button text= "This is a button" />
 
       <h2>Description</h2>
@@ -44,6 +44,8 @@ const CompLayout = (props) => {
             {'<Button text="This is a button" />'}
           </code>
         </div>
+
+        <h2>Other Examples</h2>
 
       </section>
     </section>

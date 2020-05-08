@@ -17,7 +17,7 @@ const App = () => {
     </header>
     <main>
       <aside className="mainSidebar">
-        <h2>Component Navigation</h2>
+        <h2>Navigation</h2>
         <nav>
           <ul>
             <li>

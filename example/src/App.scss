@@ -3,73 +3,116 @@
 
 // Variable Declarations
 $headerFont: 'Roboto Mono', monospace;
+$dGrey: #121211;
+$lGreen: #6BFF2D;
+$lBlue: #47B1FF;
+
+/* Color Theme Swatches in Hex */
+.Cyberpunk-1-hex { color: #121211; }
+.Cyberpunk-2-hex { color: #171716; }
+.Cyberpunk-3-hex { color: #232423; }
+.Cyberpunk-4-hex { color: #30302F; }
+.Cyberpunk-5-hex { color: #6BFF2D; }
 
 // Resets
 body {
   margin: 0px;
+  background-color:#121211;
 }
 
 // styles
 
 // Font styles
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $headerFont;
+  text-transform:uppercase;
+  margin:10px 0px 10px 0px;
 }
 
 h1 {
+  color: $lGreen;
   font-size: 32px;
-  margin-top: 0px;
 }
 
 h2 {
+  color: $lGreen;
   font-size: 30px;
-  margin-top: 0px;
 }
 
 h3 {
+  color: $lGreen;
   font-size: 28px;
-  margin-top: 0px;
 }
 
 h4 {
+  color: $lGreen;
   font-size: 26px;
-  margin-top: 0px;
 }
 
 h5 {
+  color: $lGreen;
   font-size: 24px;
-  margin-top: 0px;
 }
 
 h6 {
+  color: $lGreen;
   font-size: 22px;
-  margin-top: 0px;
 }
 
 p {
+  color: #000;
   font-size: 18px;
-  margin-top: 0px;
+  margin:0px;
+}
+
+a:link, a:visited {
+  color: $lGreen;
+  text-decoration:none;
+}
+
+a:hover, a:active {
+  color: $lBlue;
+}
+
+// Default Element styles
+
+ul {
+  list-style: none;
+  padding-left:0px;
+  margin:0px;
 }
 
 header {
-  background-color: #efefef;
-  border-bottom:1px solid #000;
+  border-bottom:1px solid $lGreen;
   padding:10px;
   width:100vw;
+
+  h1 {
+    margin:0px;
+  }
 }
 
 main {
   display: grid;
   grid-template-columns: 20% 80%;
   height: 100vh;
+  background-color:#fff;
 
   aside.mainSidebar {
-    background-color:#efefef;
-    border-right:1px solid #000;
+    background-color:$dGrey;
+    border-right:1px solid $lGreen;
     padding:10px;
+
+    h2 {
+      font-size:24px;
+      margin-bottom:5px;
+    }
   }
-  .mainBody {
-    padding:10px;
+  .CompWikiWrap {
+    padding:0px 10px;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #171716
+    }
   }
 }
