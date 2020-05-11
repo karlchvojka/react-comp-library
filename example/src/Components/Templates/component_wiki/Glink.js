@@ -1,11 +1,8 @@
-// TEMPLATE FOR COMPONENT VIEW IN EXAMPLE LIBRARY.
-// DUPLICATE THIS FILE DO NOT USE AS IS
-
 import React from 'react';
 import './index.scss';
 
 // Individual Component Imports:
-// import { Button } from 'blackburn-comp-library';
+
 import { Glink } from 'blackburn-comp-library';
 
 

@@ -5,6 +5,7 @@ import './App.scss'
 import Home from './Components/Pages/index.js';
 import CompLayoutButton from './Components/Templates/component_wiki/Button.js';
 import CompLayoutGlink from './Components/Templates/component_wiki/Glink.js';
+import CompLayoutLinkImg from './Components/Templates/component_wiki/LinkImg.js';
 
 // Component Example Imports
 
@@ -27,6 +28,7 @@ const App = () => {
               <ul>
                 <li><Link to="/button">Button</Link></li>
                 <li><Link to="/glink">Anchor Tags</Link></li>
+                <li><Link to="/linkimg">Linked Image</Link></li>
               </ul>
             </li>
           </ul>
@@ -38,6 +40,9 @@ const App = () => {
         </Route>
         <Route path="/button">
           <CompLayoutButton />
+        </Route>
+        <Route path="/linkimg">
+          <CompLayoutLinkImg />
         </Route>
         <Route path="/">
           <Home />
