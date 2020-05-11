@@ -4,10 +4,9 @@ import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import './App.scss'
 import Home from './Components/Pages/index.js';
 import CompLayoutButton from './Components/Templates/component_wiki/Button.js';
+import CompLayoutGlink from './Components/Templates/component_wiki/Glink.js';
 
 // Component Example Imports
-import { Button } from 'blackburn-comp-library';
-import 'blackburn-comp-library/dist/index.scss';
 
 const App = () => {
   return (
@@ -27,13 +26,16 @@ const App = () => {
               <h3>Components</h3>
               <ul>
                 <li><Link to="/button">Button</Link></li>
-
+                <li><Link to="/glink">Anchor Tags</Link></li>
               </ul>
             </li>
           </ul>
         </nav>
       </aside>
       <Switch className="mainBody">
+        <Route path="/glink">
+          <CompLayoutGlink />
+        </Route>
         <Route path="/button">
           <CompLayoutButton />
         </Route>
