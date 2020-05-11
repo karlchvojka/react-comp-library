@@ -10,12 +10,12 @@ const CompLayoutButton = (props) => {
       {/* Title will be individual for each component. */}
       <h1>This page for: A Button</h1>
 
+      <h2>Description</h2>
+      <p>Its a Button.. Duh..</p>
+
       {/* Add component here. */}
       <h2>Example</h2>
       <Button text= "This is a button" />
-
-      <h2>Description</h2>
-      <p>Its a Button.. Duh..</p>
 
       <h2>Props</h2>
       <p>See documentation of the usage of the props for this component below.</p>
@@ -46,7 +46,7 @@ const CompLayoutButton = (props) => {
           </code>
         </div>
       </section>
-      
+
       <h2>Other Examples</h2>
       <p>Showcase of other examples built into the default component.</p>
     </section>

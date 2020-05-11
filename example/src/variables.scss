@@ -1,15 +1,18 @@
 // Imports
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 
 // Variable Declarationss
 $borderColor: #232423;
 $dGrey: #121211;
+$docHeader: #87BF34;
+$docText: #BABABA;
 $headerColor: #171716;
-$headerFont: 'Roboto Mono', monospace;
+$headerFont:'Share Tech Mono', monospace;
+$paraFont: 'Roboto Mono', monospace;
 $lGreen: #6BFF2D;
 $lBlue: #47B1FF;
-
 
 /* Color Theme Swatches in Hex */
 .Cyberpunk-1-hex { color: #121211; }

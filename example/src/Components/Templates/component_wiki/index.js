@@ -13,12 +13,12 @@ const CompLayout = (props) => {
       {/* Title will be individual for each component. */}
       <h1>This page for: A Component</h1>
 
-      <h2>Example</h2>
-      {/* Add component here. */}
-
       <h2>Description</h2>
       {/* Add Description of the usage of the component and other information here */}
       <p>Its a Button.. Duh..</p>
+
+      <h2>Example</h2>
+      {/* Add component here. */}
 
       <h2>Props</h2>
       <p>See documentation of the usage of the props for this component below.</p>

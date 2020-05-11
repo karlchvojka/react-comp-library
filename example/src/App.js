@@ -24,7 +24,11 @@ const App = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/button">Button</Link>
+              <h3>Components</h3>
+              <ul>
+                <li><Link to="/button">Button</Link></li>
+
+              </ul>
             </li>
           </ul>
         </nav>
