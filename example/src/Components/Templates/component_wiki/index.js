@@ -33,6 +33,7 @@ const CompLayout = (props) => {
         <div className="colTitle">
           <p>Example:</p>
         </div>
+        {/* End Prop Table Headers */}
 
         {/* Prop Example */}
         <div className="propTitle">
@@ -48,6 +49,7 @@ const CompLayout = (props) => {
           {/* TODO: REPLACE WITH EXAMPLE OF THE PROP BEING USED: {'<Button text="This is a button" />'} */}
           </code>
         </div>
+        {/* End Prop Example */}
       </section>
 
       <h2>Other Examples</h2>
