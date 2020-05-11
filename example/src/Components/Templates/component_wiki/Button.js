@@ -12,7 +12,6 @@ const CompLayoutButton = (props) => {
 
       <h2>Description:</h2>
       <p>Its a Button.. Duh..</p>
-
       {/* Add component here. */}
       <h2>Example:</h2>
       <Button text= "This is a button" />
@@ -31,7 +30,7 @@ const CompLayoutButton = (props) => {
           <p>Example:</p>
         </div>
 
-        {/* Prop Example */}
+        {/* Text Prop */}
         <div className="propTitle">
           <p>Text</p>
         </div>
@@ -45,6 +44,85 @@ const CompLayoutButton = (props) => {
             {'<Button text="This is a button" />'}
           </code>
         </div>
+        {/* End Text Prop */}
+
+        {/* className Prop */}
+        <div className="propTitle">
+          <p>className</p>
+        </div>
+
+        <div className="propDescription">
+          <p>The className prop is used to add a CSS class Name to the button.</p>
+        </div>
+
+        <div className="propsExample">
+          <code>
+            {'<Button className="submit" />'}
+          </code>
+        </div>
+        {/* End className Prop */}
+
+        {/* Name Prop */}
+        <div className="propTitle">
+          <p>Name</p>
+        </div>
+
+        <div className="propDescription">
+          <p>The Name prop fills in the Buttons name attribute.</p>
+        </div>
+
+        <div className="propsExample">
+          <code>
+            {'<Button name="submit" />'}
+          </code>
+        </div>
+        {/* End className Prop */}
+
+        {/* Name Prop */}
+        <div className="propTitle">
+          <p>Type</p>
+        </div>
+
+        <div className="propDescription">
+          <p>The Type prop fills in the buttons type.</p>
+          <p>Options are:</p>
+          <ul>
+            <li>
+              <p>Submit</p>
+            </li>
+            <li>
+              <p>Reset</p>
+            </li>
+            <li>
+              <p>Button</p>
+            </li>
+          </ul>
+          <p>For more info, check out the Mozilla documentation <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">here.</a></p>
+        </div>
+
+        <div className="propsExample">
+          <code>
+            {'<Button name="submit" />'}
+          </code>
+        </div>
+        {/* End className Prop */}
+
+        {/* Value Prop */}
+        <div className="propTitle">
+          <p>Value</p>
+        </div>
+
+        <div className="propDescription">
+          <p>The Name prop fills in the Buttons name attribute.</p>
+        </div>
+
+        <div className="propsExample">
+          <code>
+            {'<Button name="submit" />'}
+          </code>
+        </div>
+        {/* End Value Prop */}
+
       </section>
 
       <h2>Other Examples:</h2>
