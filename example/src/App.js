@@ -3,11 +3,12 @@ import React from 'react'
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import './App.scss'
 import Home from './Components/Pages/index.js';
+
+// Component Example Imports
 import CompLayoutButton from './Components/Templates/component_wiki/Button.js';
 import CompLayoutGlink from './Components/Templates/component_wiki/Glink.js';
 import CompLayoutLinkImg from './Components/Templates/component_wiki/LinkImg.js';
-
-// Component Example Imports
+import CompLayoutSubNav from './Components/Templates/component_wiki/SubNav.js';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
                 <li><Link to="/button">Button</Link></li>
                 <li><Link to="/glink">Anchor Tags</Link></li>
                 <li><Link to="/linkimg">Linked Image</Link></li>
+                <li><Link to="/subnav">Sub Nav</Link></li>
               </ul>
             </li>
           </ul>
@@ -43,6 +45,9 @@ const App = () => {
         </Route>
         <Route path="/linkimg">
           <CompLayoutLinkImg />
+        </Route>
+        <Route path="/subnav">
+          <CompLayoutSubNav />
         </Route>
         <Route path="/">
           <Home />
