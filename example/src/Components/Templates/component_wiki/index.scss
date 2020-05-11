@@ -30,6 +30,7 @@
         margin: 0px;
         font-family: $paraFont;
       }
+
     }
 
     .colTitle {
@@ -44,6 +45,14 @@
 
     code {
       color:$docHeader;
+    }
+
+    .propDescription {
+      ul {
+        list-style-type: disc;
+        padding-inline-start:20px;
+        margin:5px 0px;
+      }
     }
   }
 }
